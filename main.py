@@ -6,3 +6,15 @@ numbers=numbers.replaced(' ','')
 
 if len(text) = len(numbers):
    print('Good to GO !')
+
+
+#splice them 
+merged_text=""
+
+for index in range(len(text)):
+   merge=f'{text[index]}{numbers[index]}'
+
+   print (merge, end='')
+   #end='' (no space) rather than a carriage return so it remains on one line
+
+print (merged_text)
