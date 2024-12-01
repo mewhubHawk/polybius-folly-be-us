@@ -4,3 +4,5 @@ text=text.replaced(' ','')
 numbers=numbers.replaced(' ','')
 #remove spaces from the cipher so as to be able to aline them
 
+if len(text) = len(numbers):
+   print('Good to GO !')
